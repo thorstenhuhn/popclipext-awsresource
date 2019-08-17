@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Shell Script File</key>
+			<string>script.sh</string>
+			<key>Script Interpreter</key>
+			<string>/bin/bash</string>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Title</key>
+			<dict>
+				<key>de</key>
+				<string>Suche in Konsole</string>
+				<key>en</key>
+				<string>Search in console</string>
+			</dict>
+			<key>Regular Expression</key>
+			<string>^((ami|eni|i|sg|snap|subnet|vol|vpc)-[0-9a-z]{8,17})|(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})$</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<dict>
+		<key>de</key>
+		<string>Die ausgewählte Ressource in der AWS Console suchen</string>
+		<key>en</key>
+		<string>Search selected resource in the AWS console</string>
+	</dict>
+	<key>Options Title</key>
+	<dict>
+		<key>de</key>
+		<string>Optionen</string>
+		<key>en</key>
+		<string>Options</string>
+	</dict>
+	<key>Extension Identifier</key>
+	<string>com.me.thorstenhuhn.PopClip.extension.SearchAwsResource</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>de</key>
+		<string>Suche Ressource</string>
+		<key>en</key>
+		<string>Search resource</string>
+	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>awsregion</string>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Label</key>
+			<string>AWS Region</string>
+			<key>Option Default Value</key>
+			<string>eu-central-1</string>
+			<key>Option Values</key>
+			<array>
+				<string>us-east-1</string>
+				<string>us-east-2</string>
+				<string>us-west-1</string>
+				<string>us-west-2</string>
+				<string>ca-central-1</string>
+				<string>eu-central-1</string>
+				<string>eu-west-1</string>
+				<string>eu-west-2</string>
+				<string>eu-west-3</string>
+				<string>eu-north-1</string>
+				<string>ap-east-1</string>
+				<string>ap-northeast-1</string>
+				<string>ap-northeast-2</string>
+				<string>ap-northeast-3</string>
+				<string>ap-southeast-1</string>
+				<string>ap-southeast-2</string>
+				<string>ap-south-1</string>
+				<string>me-south-1</string>
+				<string>sa-east-1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
