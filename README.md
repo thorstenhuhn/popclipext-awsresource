@@ -15,3 +15,5 @@ When installing the extension you will be asked to select the AWS region to be u
 
 Any page is opened using your default browser. However, a new version is in progress allowing you to select an alternative browser. Stay tuned...
 
+You can download and install the latest release [here](https://github.com/thorstenhuhn/popclipext-awsresource/releases/latest/download/AmazonWebServicesResource.popclipextz).
+
