@@ -41,9 +41,9 @@
 	<key>Extension Name</key>
 	<dict>
 		<key>de</key>
-		<string>Suche Ressource</string>
+		<string>Suche AWS Ressource</string>
 		<key>en</key>
-		<string>Search resource</string>
+		<string>Search AWS resource</string>
 	</dict>
 	<key>Options</key>
 	<array>
